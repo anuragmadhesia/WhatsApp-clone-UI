@@ -1,0 +1,274 @@
+<!----Starting of HTML---->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/f5/28/cc/f528cc010d8a9bfcef07d08106976d0f.png" type="image/x-icon">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!---Profile Pic Viewer---->
+    <div id="img_dis">
+        <div>
+            <div class="p_name">Aman</div>
+            <img src="#">
+            <div class="p_icons">
+                <button class="bi-chat-right-text-fill"></button>
+                <button class="bi-telephone-fill"></button>
+                <button class="bi-camera-video-fill"></button>
+                <button class="bi-info-circle"></button>
+            </div>
+        </div>
+    </div>
+    <!----First Page/ Loading Page----->
+    <div id="first-page">
+        <img id="whatsapp" src="https://i.pinimg.com/originals/f5/28/cc/f528cc010d8a9bfcef07d08106976d0f.png">
+        <div>
+            <small class="text">from</small>
+            <h2 class="text">facebook</h2>
+        </div>
+    </div>
+    <div id="main-page">
+        <!---Head------>
+        <div id="head1">
+            <div id="head">
+                <p id="h1">WhatsApp</p>
+                <p id="sicon"><i class="bi-search"></i>
+                    <!----Search Bar with Options------>
+                <div class="search">
+                    <div id="search-bar">
+                        <button class="bi-arrow-left-short"></button>
+                        <input type="search" placeholder="Search...">
+                    </div>
+                    <div class="types">
+                        <button class="bi-image-fill">Photos</button>
+                        <button class="bi-camera-video-fill">Videos</button>
+                        <button class="bi-link">Links</button>
+                        <button class="gif">GIFs</button>
+                        <button class="bi-headphones">Audio</button>
+                        <button class="bi-file-text">Documents</button>
+                    </div>
+                </div>
+                </p>
+                <!----Menu Options------>
+                <div id="menu" class="bi-three-dots-vertical">
+                    <ul id="options">
+                        <li>New group</li>
+                        <li>New broadcasts</li>
+                        <li>Linked devices</li>
+                        <li>Starred Messages</li>
+                        <li>Payments</li>
+                        <li>Settings</li>
+                    </ul>
+                </div>
+            </div>
+            <!----Sub-Head Options Row--->
+            <div id="sub-head">
+                <p id="camera"><i class='fa fa-camera'></i></p>
+                <p id="chats" onclick="display('frndsec','chats',0);">CHATS</p>
+                <p id="status" onclick="display('statusec','status',1)">STATUS</p>
+                <p id="calls" onclick="display('callsec','calls',2)">CALLS</p>
+                <p id="slide"></p>
+            </div>
+        </div>
+        <!-----Chats----->
+        <div id="frndsec">
+            <button class="txt1 bi-chat-right-text-fill"></button>
+            <div class="frnd">
+                <div class="proimg"><img src="https://www.scifibloggers.com/wp-content/uploads/Iron-Man.jpeg"
+                        class="propic"></div>
+                <p class="name"><span>Tony Stark(Iron Man)</span></c><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Awesome dear</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img
+                        src="https://i.pinimg.com/originals/2c/ea/ba/2ceabad87154556574386bc6743407fc.jpg"
+                        class="propic"></div>
+                <p class="name"><span>Albert Einstein</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Nice work my boy</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img
+                        src="https://i.pinimg.com/originals/2a/41/d0/2a41d04e5c405d5864fecd39e48ded18.jpg"
+                        class="propic"></div>
+                <p class="name"><span>Kiara Advani</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Great......)</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXx8SrWXSyt1hF34qhPdAfkFWAplm3C3yLi9xGYrWxLHQUr8nS9eUjlaV&s=10"
+                        class="propic"></div>
+                <p class="name"><span>M.S. Dhoni</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Cooool</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img src="https://i.pinimg.com/236x/b3/91/dc/b391dc7a081dc6a23675c3501105c564.jpg"
+                        class="propic"></div>
+                <p class="name"><span>Christano Ronaldo</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">:)</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img
+                        src="https://i.pinimg.com/236x/94/b4/54/94b454f14c145475b78da427122b29bb--elon-musk-book-tesla-spacex.jpg"
+                        class="propic"></div>
+                <p class="name"><span>Elon Musk</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Bye......)</small></p>
+            </div>
+            <div class="frnd">
+                <div class="proimg"><img
+                        src="https://1.bp.blogspot.com/-Jb6a0aQTano/Xj61bmWDT2I/AAAAAAAAOHw/nFxR-V3qSqgLprv4IzX3dzRWauQ9JsUPgCLcBGAsYHQ/s1600/Black%2BWidow%2Bphotos%2B%25281%2529.jpeg"
+                        class="propic"></div>
+                <p class="name"><span>Black Widow</span><small class="lsee">yesterday</small><br><small
+                        class="lmsg">Good Night......☆</small></p>
+            </div>
+        </div>
+        <!----Status------>
+        <div id="statusec">
+            <div class="status1" id="my-status">
+                <div id="my-img">
+                    <img src="https://api.sololearn.com/uploads/avatars/19277040.jpg">
+                </div>
+                <p class="s_name">My status<br><small class="lmsg">Tap to add status update</small>
+                </p>
+            </div>
+            <p>Recent updates</p>
+            <div class="status">
+                <div class="s-img">
+                    <img src="https://i.pinimg.com/originals/99/9d/ce/999dced4fd8e71b3cf9ed2a97b6f1f32.jpg">
+                </div>
+                <p class="s_name"><span>M.S. Dhoni</span><br><small class="lmsg">yesterday, 11:59 pm</small></p>
+            </div>
+            <div class="status">
+                <div class="s-img">
+                    <img src="https://i.pinimg.com/originals/87/6c/b4/876cb46b12e1fbd7109048fdbdc18de1.jpg">
+                </div>
+                <p class="s_name"><span>Kiara Advani</span><br><small class="lmsg">yesterday, 7:12 pm</small></p>
+            </div>
+            <div class="status">
+                <div class="s-img">
+                    <img src="https://i.pinimg.com/originals/f3/08/71/f30871ec1af83f93835787724f2973d6.jpg">
+                </div>
+                <p class="s_name"><span>Elon Musk</span><br><small class="lmsg">yesterday, 10:30 pm</small></p>
+            </div>
+            <button id="pen-icon"><i class="bi-pencil-fill"></i></button>
+            <button id="cam-icon"><i class="fa fa-camera"></i></button>
+        </div>
+        <!----Calls---->
+        <div id="callsec">
+            <div class="calls">
+                <div class="proimg">
+                    <img class="propic"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXx8SrWXSyt1hF34qhPdAfkFWAplm3C3yLi9xGYrWxLHQUr8nS9eUjlaV&s=10">
+                </div>
+                <p class="call-name"><span>M.S. Dhoni</span><small class="callsee fa fa-phone"></small><br><small
+                        class="lmsg bi-arrow-up-right">20 July,5:30 pm</small></p>
+            </div>
+            <div class="calls">
+                <div class="proimg">
+                    <img class="propic"
+                        src="https://i.pinimg.com/originals/2a/41/d0/2a41d04e5c405d5864fecd39e48ded18.jpg">
+                </div>
+                <p class="call-name"><span>Kiara Advani</span><small class="callsee fa fa-phone"></small><br><small
+                        class="lmsg bi-arrow-down-left">22 July,9:39 pm</small></p>
+            </div>
+            <button
+                onclick="alert('Go in CHATS and click the profile pic or the contact, whom you want to call and then click the call/telephone icon.')"
+                class="fa fa-phone" id="call-icon"><sup>+</sup></button>
+        </div>
+        <!----Chatting Area----->
+        <div id="chatting-sec">
+            <div id="title">
+                <div id="ch-back">
+                    <button class="bi-arrow-left-short"></button><img class="ch_img" src="mo">
+                </div>
+                <div class="ch-name"><span>Aman</span><br><small>yesterday</small></div>
+                <button class="bi-camera-video-fill"></button>
+                <button class="fa fa-phone"></button>
+                <div class="bi-three-dots-vertical">
+                    <ul class="options">
+                        <li>View Contacts</li>
+                        <li>Media, links, docs</li>
+                        <li>Search</li>
+                        <li>Mute notifications</li>
+                        <li>Wallpapers</li>
+                        <li>More</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frst-time">
+                <div class="time-tag">Yesterday</div>
+            </div>
+            <div>
+                <div align="right" class="msg_cont">
+                    <div class="send">
+                        <div>Hello,I am fine.What about you??</div>
+                        <div class="bi-check2-all" style=" color:rgb(47,161,211);"></div><sub>4:31 pm</sub>
+                    </div>
+                </div>
+                <div class="msg_cont">
+                    <div class="receive">
+                        <div>Hello! How are you??</div><sub>1:15 pm</sub>
+                    </div>
+                </div>
+            </div>
+            <div class="time-tag">Today</div>
+            <div></div>
+            <div id="msg-field">
+                <div id="txt-field">
+                    <button class="bi-emoji-laughing-fill"></button>
+                    <input id="text-area" placeholder="Type a messa..." type="text">
+                    <button class="bi-paperclip"></button>
+                    <button class='fa fa-camera'></button>
+                </div>
+                <div class="mic"><button class="bi-mic"></button></div>
+            </div>
+        </div>
+        <!---Call Page----->
+        <div id="call-page">
+            <div id="calling">
+                <div><b class="bi-chevron-down"></b>
+                    <p><b class="bi-lock-fill"></b>End-to-end encrypted</p>
+                </div>
+                <h2>Aman</h2>
+                <p>Calling</p>
+            </div>
+            <button class="fa fa-phone phone"></button>
+            <img src="#">
+            <div class="call-icons"><button class="bi-volume-up-fill s"></button><button
+                    class="bi-camera-video-fill"></button><button class="bi-mic-mute-fill"></button>
+            </div>
+        </div>
+        <!----Displaying Status------->
+        <div class="status_show">
+            <div class="timeline"></div>
+            <div class="s-top">
+                <button class="bi-arrow-left-short button"></button>
+                <div class="status">
+                    <div class="s-img">
+                        <img src="Pictures/Screenshots/Whatsapp.png">
+                    </div>
+                    <p class="s_name"><span>Elon Musk</span><br><small class="lmsg">Yesterday 12:30 am</small></p>
+                </div>
+                <div class="button"><button class="bi-three-dots-vertical"></button>
+                    <p class="s-option">Mute</p>
+                </div>
+            </div>
+            <img src="Pictures/Downloads/HomeComing.jpg">
+            <div class="bi-chevron-up"><br>Reply</div>
+        </div>
+    </div>
+    <audio src="https://dl.dropbox.com/s/04hafzayzdtw67q/tring%20tring.mp3" id="tring" loop controls></audio>
+    <audio src="https://dl.dropbox.com/s/zije82hdqshe2t7/_%28mp3food.com%29.mp3" id="tick" controls></audio>
+    <!-----End of HTML------->
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>
